@@ -1,0 +1,76 @@
+# Exercicios2018.2
+import java.util.Scanner;
+
+public class Exer2_32 {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner (System.in);
+		
+		int numero;
+		int numero1;
+		int numero2;
+		int numero3;
+		int numero4;
+		
+		System.out.println("Primeiro número:");
+		numero=scan.nextInt();
+		
+		System.out.println("Segundo número:");
+		numero1=scan.nextInt();
+		
+		System.out.println("Treceiro número:");
+		numero2=scan.nextInt();
+		
+		System.out.println("Quarto número:");
+		numero3=scan.nextInt();
+		
+		System.out.println("Quinto número:");
+		numero4=scan.nextInt();
+		
+		if (numero<0) {
+			System.out.println("O primeiro numero e negativo");
+		}
+			if (numero>0) {
+				System.out.println("O primeiro numero e positivo");
+			}
+				if (numero==0) {
+					System.out.println("O primeiro numero e 0");
+				}	
+				if (numero1<0) {
+					System.out.println("O segundo numero e negativo");
+				}
+					if (numero1>0) {
+						System.out.println("O segundo numero e positivo");
+					}
+						if (numero1==0) {
+							System.out.println("O segundo numero e 0");
+						}	
+			if (numero2<0) {
+				System.out.println("O terceiro numero e negativo");
+			}
+				if (numero2>0) {
+					System.out.println("O terceiro numero e positivo");
+				}
+					if (numero2==0) {
+						System.out.println("O terceiro numero e 0");
+					}
+						
+		if (numero3<0) {
+			System.out.println("O quarto numero e negativo");
+		}
+			if (numero3>0) {
+				System.out.println("O quarto numero e positivo");
+			}
+				if (numero3==0) {
+					System.out.println("O quarto numero e 0");
+				}
+	if (numero4<0) {
+		System.out.println("O quinto numero e negativo");
+	}
+		if (numero4>0) {
+			System.out.println("O quinto numero e positivo");
+		}
+			if (numero4==0) {
+				System.out.println("O quinto numero e 0");
+			}
+	}
+}
