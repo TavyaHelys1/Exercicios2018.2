@@ -1,0 +1,29 @@
+# Exercicios2018.2
+import java.util.Scanner;
+
+public class Exer2_30 {
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner (System.in);
+		
+		
+		int numero;
+		int divisor = 1;
+		String resposta ="";
+		
+		
+		System.out.println("Digite um número de pelo menos 5 digitos:");
+		numero=scan.nextInt();
+		
+		
+		while (numero/divisor>1) {
+		divisor*=10;
+		
+		
+		resposta=((numero%divisor)/(divisor/10))+"   "+resposta;
+		
+		System.out.println(resposta);
+	}
+
+}
+}
